@@ -5,14 +5,15 @@ import plotly.express as px
 df = pd.read_csv('vehicles_us.csv')
 
 # Encabezado
-st.header("Cuadro de mandos - Vehículos")
+st.title("Dashboard de vehículos usados")
+st.write("Aplicación interactiva para explorar datos de vehículos usados en Estados Unidos.")
 
 
 # Casilla 1: Histograma de odómetro
 if st.checkbox("Mostrar histograma de Odómetro"):
     fig_hist = px.histogram(df, x="odometer", nbins=30,
                             title="Distribución del Odómetro")
-    st.write("Aquí puedes ver cómo se distribuye el odómetro en el dataset:")
+    st.write("Este histograma muestra la distribución del kilometraje registrado en los vehículos.")
     st.plotly_chart(fig_hist, use_container_width=True)
 
 # Casilla 2: Dispersión Precio vs Odómetro

@@ -1,4 +1,4 @@
-# Cuadro de mandos de vehículos usados
+# Cuadro de mandos de vehículos usados.
 
 ## Descripción del proyecto
 

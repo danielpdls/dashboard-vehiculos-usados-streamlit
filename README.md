@@ -1,44 +1,42 @@
-# sprint_7_project
-final project Sprint 7 TripleTen
+# Cuadro de mandos de vehículos usados
 
-Proyecto: Cuadro de mandos de vehículos
+## Descripción del proyecto
 
-Esta es una aplicación web interactiva desarrollada con Streamlit, basada en el conjunto de datos vehicles_us.csv.
-Su propósito es explorar de manera sencilla la información de vehículos usados, permitiendo al usuario visualizar diferentes gráficos y entender mejor las relaciones entre precio, odómetro y otras variables.
+Aplicación web interactiva desarrollada con Streamlit para explorar un conjunto de datos de vehículos usados en Estados Unidos. El proyecto permite visualizar información relevante sobre precios, kilometraje, condición del vehículo y otras variables mediante gráficos interactivos.
 
-Funcionalidad
+Este proyecto fue desarrollado como parte del Sprint 7 del bootcamp de Data Science de TripleTen.
 
-Visualización interactiva: la aplicación incluye casillas de verificación que permiten al usuario generar gráficos en tiempo real.
+## Objetivo
 
-Histogramas: muestran la distribución del odómetro en los vehículos.
+Construir una aplicación web sencilla e interactiva que permita analizar visualmente el comportamiento de los vehículos usados, facilitando la identificación de patrones entre variables como precio, odómetro, modelo, año y condición del vehículo.
 
-Diagramas de dispersión: muestran la relación entre el precio y el odómetro.
+## Tecnologías utilizadas
 
-Interfaz amigable: no se requiere conocimiento de programación, basta con seleccionar las opciones en la interfaz.
+- Python
+- pandas
+- Streamlit
+- Plotly Express
+- Git/GitHub
 
-Tecnologías utilizadas
+## Funcionalidades principales
 
-Streamlit: para la interfaz web interactiva.
+- Visualización interactiva de datos de vehículos usados.
+- Generación de histogramas para analizar la distribución del odómetro.
+- Creación de diagramas de dispersión para observar la relación entre precio y kilometraje.
+- Interfaz sencilla mediante casillas de verificación.
+- Exploración rápida de datos sin necesidad de modificar el código.
 
-Pandas : para la manipulación de datos.
+## Estructura del repositorio
 
-Plotly Express: para generar gráficos interactivos.
+- `app.py`: archivo principal de la aplicación en Streamlit.
+- `vehicles_us.csv`: conjunto de datos utilizado en el análisis.
+- `requirements.txt`: librerías necesarias para ejecutar la aplicación.
+- `notebooks/`: carpeta con el análisis exploratorio del proyecto.
+- `README.md`: descripción general del proyecto.
 
-¿Cómo ejecutar la aplicación?
+## Cómo ejecutar la aplicación
 
-Clona este repositorio en tu computadora:
+1. Clonar este repositorio:
 
-git clone <URL-del-repositorio>
-cd <nombre-del-repositorio>
-
-Activa el entorno virtual (si lo tienes configurado).
-
-Instala las dependencias necesarias:
-
-pip install -r requirements.txt
-
-Ejecuta la aplicación:
-
-streamlit run app.py
-
-Abre tu navegador en la dirección que aparece (por defecto: http://localhost:8501).
+```bash
+git clone https://github.com/danielpdls/sprint_7_project.git
